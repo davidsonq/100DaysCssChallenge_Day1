@@ -1,0 +1,17 @@
+body,
+main,
+aside,
+div,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: var(--font-family);
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+}
