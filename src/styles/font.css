@@ -1,0 +1,10 @@
+.font__title {
+  font-size: var(--font-great);
+  font-weight: var(--font-weight);
+}
+
+.font__subTitle {
+  font-size: var(--font-normal);
+  font-weight: var(--font-weight);
+  line-height: 0px;
+}

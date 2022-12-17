@@ -1,0 +1,25 @@
+.color__white {
+  color: var(--color-white);
+}
+
+.backgroud__gradient {
+  background: linear-gradient(45deg, #43389f, #4ec6ca);
+  background-size: 300% 100%;
+  animation: animationGradient 10s infinite linear;
+}
+
+@keyframes animationGradient {
+  0% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+  100% {
+    background-position-x: 0%;
+  }
+}
+
+.backgroud__white {
+  background-color: var(--color-white);
+}
